@@ -97,3 +97,24 @@ p {
 .app-section {
   margin-bottom: 48px;
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 48px !important;
+    line-height: 40px !important;
+  }
+
+  h2 {
+    font-size: 24px !important;
+  }
+
+  h3 {
+    font-size: 16px !important;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px !important;
+  }
+}
